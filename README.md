@@ -17,10 +17,10 @@
 docker-compose up -d
 ```
 
-6. Execute Seed to populate database
+6. Run application ```npm run start:dev```
+
+7. Execute Seed to populate database
 ```
 http://localhost:3000/seed
 ```
-
-7. Run application ```npm run start:dev```
 
