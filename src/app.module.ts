@@ -10,6 +10,7 @@ import { SeedModule } from './seed/seed.module';
 import { FilesModule } from './files/files.module';
 import { databaseConfig } from './config/env.config';
 import { AuthModule } from './auth/auth.module';
+import { MessagesWebSocketsModule } from './messages-web-sockets/messages-web-sockets.module';
 
 @Module({
   imports: [
@@ -32,6 +33,7 @@ import { AuthModule } from './auth/auth.module';
     SeedModule,
     FilesModule,
     AuthModule,
+    MessagesWebSocketsModule,
   ],
 })
 export class AppModule {}
